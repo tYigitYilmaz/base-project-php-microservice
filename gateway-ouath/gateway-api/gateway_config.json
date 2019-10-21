@@ -1,0 +1,24 @@
+{
+        "gateway-oauth": {
+          "port": "80",
+          "ip" : "127.0.0.1"
+        },
+        "user-service": {
+          "port": "81",
+          "ip" : "127.0.0.1",
+          "services" :{
+            "register": "/todo/user-service/web/user/register,POST",
+            "login": "/todo/user-service/web/user/login,POST"
+          }
+        },
+        "category-service": {
+          "port": "82",
+          "ip" : "127.0.0.1"
+        },
+        "title-subtitle-task-service": {
+          "port": "83"
+        },
+        "reminder-service": {
+          "port": "84"
+        }
+}

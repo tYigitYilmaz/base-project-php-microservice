@@ -1,0 +1,3 @@
+[2019-10-02T22:20:15.385356+02:00] INFO LOGGER.INFO: Login user from dashboard{"user_id":"1","request_url":"http://localhost:82/todo/category-service/web/category/listAllCategories","time":"22:20:15 02/10/2019","resp_time":0.004573822021484375} []
+[2019-10-03T11:18:46.437926+02:00] INFO LOGGER.INFO: Login user from dashboard {"user_id":"1","request_url":"http://localhost:82/todo/category-service/web/category/listAllCategories","time":"11:18:46 03/10/2019","resp_time":0.005224943161010742} []
+[2019-10-03T11:29:14.510570+02:00] INFO LOGGER.INFO: Login user from dashboard {"user_id":"1","request_url":"http://localhost:82/todo/category-service/web/category/listAllCategories","time":"11:29:14 03/10/2019","resp_time":0.0053980350494384766} []

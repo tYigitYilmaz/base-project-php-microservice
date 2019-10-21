@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/gateway-api/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/karriere/json-decoder" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/gateway-api/vendor/composer" />
+    </include_path>
+  </component>
+</project>

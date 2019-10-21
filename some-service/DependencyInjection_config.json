@@ -1,0 +1,25 @@
+{
+  "kernel": {
+    "loadServices": [
+      "Core\\Model",
+      "Service\\Abst",
+      "Service\\Concrete",
+      "Service\\Gateway",
+      "Data\\Repository\\Abst",
+      "App\\Controller"
+    ],
+    "services": {
+      "Data\\Repository\\Abst\\IReminderRepo": "Data\\Repository\\Concrete\\ReminderRepo",
+      "Service\\Abst\\IGenerateService": "Service\\Concrete\\GenerateService",
+      "Service\\Abst\\IReminderService": "Service\\Concrete\\ReminderService",
+      "Service\\Gateway\\IReceiverService": "Service\\Gateway\\ReceiverService",
+      "Data\\Repository\\Abst\\IChannelRepo": "Data\\Repository\\Concrete\\ChannelRepo",
+      "Data\\Repository\\Abst\\ICorporateCustomerRepo": "Data\\Repository\\Concrete\\CorporateCustomerRepo",
+      "Data\\Repository\\Abst\\ICustomerRepo": "Data\\Repository\\Concrete\\CustomerRepo",
+      "Data\\Repository\\Abst\\IFinancialActionRepo": "Data\\Repository\\Concrete\\FinancialActionRepo",
+      "Data\\Repository\\Abst\\IFinancialStatementRepo": "Data\\Repository\\Concrete\\FinancialStatementRepo",
+      "Data\\Repository\\Abst\\IRealCustomerRepo": "Data\\Repository\\Concrete\\RealCustomerRepo",
+      "Data\\Repository\\Abst\\IAdressRepo": "Data\\Repository\\Concrete\\AdressRepo"
+    }
+  }
+}
