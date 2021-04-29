@@ -2,7 +2,7 @@
     "require": {
         "rapidwebltd/php-google-contacts-v3-api": "^2.0",
         "vlucas/phpdotenv": "^3.4",
-        "illuminate/database": "^5.8",
+        "illuminate/database": "^6.20",
       "ext-curl": "*",
         "ext-dom": "*",
         "ext-json": "*",
